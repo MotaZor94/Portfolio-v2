@@ -28,15 +28,32 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        </div>
+        <div class="contact">
+            <img id="contact" src="../img/msg1.png/" alt="">
+            <div id="takeMe" class="contHide">
+                <h2>HIRE ME</h2>
+                <form>
+                FIRST NAME:
+                <input type="text" name="firstname" size="20">
+                LAST NAME:
+                <input type="text" name="lastname" size="20"><br>
+                EMAIL ADRESS:<br>
+                <input type="email" name="email" size="62"><br>
+                MESSAGE:<br>
+                <input class="message" type="text" name="message" height="10" size="62"><br>
+                <button class="btn11">SEND MESSAGE</button>
+            </form>
+            </div>
+        </div>
         <header class="hero">
             <nav class="navigation" data-aos="zoom-out" data-aos-duration="3000">
                 <div class="logo">markocolic.</div>
                 <div class="int-links">
-                    <a href="#">Hero</a>
-                    <a href="#">About Me</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Contact</a>
+                    <a href="#hero">Hero</a>
+                    <a href="#about-me">About Me</a>
+                    <a href="#my-skills">Skills</a>
+                    <a href="#portfolio">Portfolio</a>
                 </div>
                 <div class="ext-links">
                         <i class="fab fa-linkedin"></i>
@@ -45,14 +62,15 @@
                 </div>
             </nav>
             <div class="important">
-                <h1 data-aos="zoom-in" data-aos-duration="3000">Marko Colic.</br>
+                <h1 data-aos="zoom-in" data-aos-duration="1000">Marko Colic.</br>
                 Fullstack web developer<br>
                 based in Prague</h1>
             </div>
 
         </header>
-        <section class="about-me">
-            <div class="headlines" data-aos="fade-right" data-aos-duration="3000">
+        <section id="about-me" class="about-me">
+            <h2 data-aos="zoom-out" data-aos-duration="200">ABOUT ME</h2>
+            <div class="headlines" data-aos="fade-right" data-aos-duration="400">
                 <div class="student">
                     <h3>Student</h3>
                     <p>Tell me about your project and we brainstorm together the features to create a plan for your product to launch.</p>
@@ -69,16 +87,16 @@
             <div class="cloud" data-aos="zoom-in" data-aos-duration="1000">
                 <svg aria-hidden="true" data-prefix="fas" data-icon="cloud" class="svg-inline--fa fa-cloud fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4z"></path></svg>
             </div>
+            
         </section>
-        <section class="my-skills">
-            <h2 data-aos="zoom-in" data-aos-duration="3000" >MY SKILLS</h2>
+        <section id="my-skills" class="my-skills">
+            <h2 data-aos="zoom-in" data-aos-duration="600" >MY SKILLS</h2>
             <div class="progress-bar">
                 <div>
                     <div class="name">HTML</div>
                     <div>
                         <div data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"  class="bar"></div>
+                        data-aos-easing="ease-in-sine" data-aos-duration="900"  class="bar"></div>
                         <div class="num">80%</div> 
                     </div>
                 </div>
@@ -86,8 +104,7 @@
                     <div class="name">CSS,SASS</div>
                     <div>
                         <div data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" class="bar1"></div>
+                        data-aos-easing="ease-in-sine" data-aos-duration="1000" class="bar1"></div>
                         <div class="num">80%</div>
                     </div>
                 </div>
@@ -95,8 +112,7 @@
                     <div class="name">JAVASCRIPT</div>
                     <div>
                         <div data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" class="bar2"></div>
+                        data-aos-easing="ease-in-sine" data-aos-duration="1100" class="bar2"></div>
                         <div class="num">70%</div>
                     </div>
                 </div>
@@ -104,7 +120,7 @@
                     <div class="name">PHP</div>
                     <div>
                         <div data-aos="fade-right"
-                        data-aos-offset="300"
+                        data-aos-duration="1200"
                         data-aos-easing="ease-in-sine"  class="bar3"></div>
                         <div class="num">60%</div>
                     </div>
@@ -113,8 +129,7 @@
                     <div class="name">REACT.JS</div>
                     <div>
                         <div data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" class="bar4"></div>
+                        data-aos-easing="ease-in-sine" data-aos-duration="1300" class="bar4"></div>
                         <div class="num">70%</div>
                     </div>
                 </div>
@@ -122,8 +137,7 @@
                     <div class="name">NODE.JS</div>
                     <div>
                         <div data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" class="bar5"></div>
+                        data-aos-easing="ease-in-sine" data-aos-duration="1400" class="bar5"></div>
                         <div class="num">60%</div>
                     </div>
                 </div>
@@ -131,13 +145,12 @@
                     <div class="name">LARAVEL</div>
                     <div>
                         <div data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" class="bar6"></div>
+                        data-aos-easing="ease-in-sine" data-aos-duration="1500" class="bar6"></div>
                         <div class="num">60%</div>
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-left" class="logos">
+            <div data-aos="fade-left" data-aos-duration="1800" class="logos">
                 <div class="html5"><i class="fab fa-html5"></i></div>
                 <div class="css3"><i class="fab fa-css3-alt"></i></div>
                 <div class="sass"><i class="fab fa-sass"></i></div>
@@ -151,24 +164,18 @@
                 <i class="fas fa-cloud"></i>
             </div>
         </section>
-        <section class="portfolio">
-            <div data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" class="Projects">
-                <h2>Projects<span>.</span></h2>
-                <h2>Projects<span>.</span></h2>
-                <h2>Projects<span>.</span></h2>
-                <h2>Projects<span>.</span></h2>
-                <h2>Projects<span>.</span></h2>
-            </div>
-                <div data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top-bottom" class="cloud3">
+        <section id="portfolio" class="portfolio">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top-bottom" class="left-port">
                         <i class="fas fa-square-full"></i>
                     </div>
-                <div data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top-bottom"  class="cloud4">
+                <div data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top-bottom"  class="right-port">
                         <i class="fas fa-square-full"></i>
                     </div>
         </section>
         <script>
             AOS.init();
         </script>
+        <script src="JS/script.js"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
     </body>
 </html>
