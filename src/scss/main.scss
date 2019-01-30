@@ -106,9 +106,27 @@ body {
 
 .contHide {
 
+    width: 90em;
+    height: 90em;
+    border-radius: 50%;
+    background-color: grey;
+    position: fixed;
+    z-index: 10;
+    top: -5em;
+    right: -37.5em;
+    transform: scale(0.07);
+    transition: 0.8s;
+    -webkit-box-shadow: -1px -2px 300px -30px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px -2px 300px -30px rgba(0,0,0,0.43);
+    box-shadow: -1px -2px 300px -30px rgba(0,0,0,0.43);
+
+
+
+
+
      form {
         position: fixed;
-        top:9em;
+        top:20em;
         right:18em;
         z-index: 15;
         border-radius: 0.1em;
@@ -117,7 +135,6 @@ body {
         font-size: 1.2em;
         color: white;
         opacity: 0;
-        transition: 2s;
      }
 
 
@@ -125,29 +142,17 @@ body {
         font-family: 'Roboto Condensed', sans-serif;
         position: fixed;
         font-size: 4em;
-        top: 1em;
+        top: 4em;
         right: 6em;
         color: black;
         z-index: 15;
         text-shadow: 0px 2px 16px rgba(0,0,0,0.31);
         opacity: 0;
-        transition: 2.5;
+        transition: 2.5 ;
 
     }
 
 
-}
-
-
-
-.burger img {
-    position: fixed;
-    top: 0;
-    right: 2em;
-    width: 10em;
-    height: 8em;
-    z-index: 10;
-    
 }
 
 
@@ -162,24 +167,26 @@ body {
 .contact {
 
     .contShow {
-        width: 70em;
-        height: 70em;
+        width: 90em;
+        height: 90em;
         border-radius: 50%;
         background-color: grey;
         position: fixed;
         z-index: 10;
         top: -18em;
         right: 0;
-        transition: 1s;
-        animation-name: hello;
+        transition: 0.2s ease-in;
+        transform: scale(1);
+        opacity: 100;
+            
 
         
 
 
         form {
             position: fixed;
-            top:9em;
-            right:18em;
+            top:20em;
+            left: 12em;
             z-index: 15;
             border-radius: 0.1em;
             border: 2px solid grey;
@@ -224,7 +231,7 @@ body {
             font-family: 'Roboto Condensed', sans-serif;
             position: fixed;
             font-size: 4em;
-            top:0em;
+            top:4em;
             right: 13em;
             color: white;
             z-index: 15;
@@ -249,11 +256,6 @@ body {
         filter : hue-rotate(180deg);
         transition: 1s;
 
-    }
-    img:hover {
-        width: 17em;
-        height: 9em;
-        transition: 1s;
     }
 }
 
